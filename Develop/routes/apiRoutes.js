@@ -4,7 +4,7 @@ const store = require("../Develop/db/store");
 // GET "/api/notes" responds with all notes from the database
 router.get("/notes", function(req, res) {
   store
-    .getNotes()
+    .getNotes(req.body)
     .then(notes => res.json(notes))
     .catch(err => res.status(500).json(err));
 });
