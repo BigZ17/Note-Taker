@@ -2,7 +2,7 @@
 
 # Can create new Note page
 
-# Couldn't get it to make the folders for notes  
+# Couldn't get it to make the folders for new notes  
 
 # Needs delete button
 
